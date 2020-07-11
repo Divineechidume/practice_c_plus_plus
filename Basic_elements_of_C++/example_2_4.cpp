@@ -7,7 +7,11 @@ using namespace std;
 int main()
 {
     int inches;
-    inches = 100;
+
+    cout << "Enter inches you wish to convert"
+         << "to feet and remaining inches."
+         << endl;
+    cin >> inches;
     cout << inches << " inch(es) = ";
     cout << inches / 12 << " feet (foot) and ";
     cout << inches % 12 << " inch(es)" << endl;
